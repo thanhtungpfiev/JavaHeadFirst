@@ -29,12 +29,11 @@ public class BeerSong {
             System.out.println("Take one down.");
             System.out.println("Pass it around.");
             beerNum = beerNum - 1;
-            
-            if (beerNum > 0) {
-                System.err.println(beerNum + " " + word + " of beer on the wall");
-            } else {
-                System.out.println("No more bottles of beer on the wall");
-            } // end else
         } // end while loop
+        if (beerNum > 0) {
+            System.out.println(beerNum + " " + word + " of beer on the wall");
+        } else {
+            System.out.println("No more bottles of beer on the wall");
+        } // end else
     } // end main method
 } // end clss
