@@ -16,6 +16,8 @@ public class MyFirstApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("I Rule!");
+        System.out.println("The World");
     }
     
 }
