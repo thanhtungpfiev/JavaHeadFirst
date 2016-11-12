@@ -16,7 +16,7 @@ public class Mix4 {
         int count = 0;
         Mix4[] m4a = new Mix4[20];
         int x = 0;
-        while (x < 20) {
+        while (x < 7) {
             m4a[x] = new Mix4();
             m4a[x].counter = m4a[x].counter + 1;
             count = count + 1;
@@ -28,7 +28,7 @@ public class Mix4 {
     }
 
     public int maybeNew(int index) {
-        if (index < 5) {
+        if (index < 7) {
             Mix4 m4 = new Mix4();
             m4.counter =  m4.counter + 1;
             return 1;
