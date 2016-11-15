@@ -21,7 +21,7 @@ public class MixFor5 {
         int y = 30;
         for (int outer = 0; outer < 3; outer++) {
             for (int inner = 4; inner > 1; inner--) {
-                x = x + 2;
+                x++;
                 y = y - 2;
                 if (x == 6) {
                     break;
