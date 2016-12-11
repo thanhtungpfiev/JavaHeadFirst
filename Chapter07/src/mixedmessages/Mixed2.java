@@ -47,8 +47,8 @@ public class Mixed2 {
         C c = new C();
         A a2 = new C();
         
-        c.m1();
-        c.m2();
+        a.m1();
+        b.m2();
         c.m3();
     }
 
