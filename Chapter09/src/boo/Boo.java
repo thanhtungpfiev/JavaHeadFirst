@@ -10,6 +10,10 @@ package boo;
  * @date Dec 24, 2016
  */
 public class Boo {
+    
+    public Boo() {
+        
+    }
 
     public Boo(int i) {
     }
@@ -19,6 +23,14 @@ public class Boo {
     }
     
     public Boo(String s, int i) {
+        
+    }
+    
+    public Boo(String a, String b) {
+        
+    }
+    
+    public Boo(int i, String s) {
         
     }
 }
